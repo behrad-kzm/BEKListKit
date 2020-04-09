@@ -1,0 +1,22 @@
+{
+  "name": "BEKListKit",
+  "version": "0.1.0",
+  "summary": "A short description of BEKListKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/behrad-kzm/BEKListKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "behrad-kzm": "behradkzm@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/behrad-kzm/BEKListKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BEKListKit/Classes/**/*"
+}

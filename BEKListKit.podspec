@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BEKListKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BEKListKit.'
+  s.version          = '1.0.0'
+  s.summary          = 'BEKListKit contains both generics of UITableView and UICollectionView components and help you to create complex lists in just a minute.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Generic components based on MVVM that allows you to add multiple cell types at runtime in a single line of code.'
                        DESC
 
   s.homepage         = 'https://github.com/behrad-kzm/BEKListKit'
@@ -28,10 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/behrad-kzm/BEKListKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'BEKListKit/Classes/**/*'
-  
+	s.swift_versions = '5.0'
   # s.resource_bundles = {
   #   'BEKListKit' => ['BEKListKit/Assets/*.png']
   # }

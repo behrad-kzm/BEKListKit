@@ -7,18 +7,24 @@
 //
 
 import UIKit
-
+import BEKListKit
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+	
+	@IBOutlet weak var tableView: BEKMultiCellTable!
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		let names = ["first","second","third","fourth","fifth"]
+		(0...3).forEach { _ in
+			let cell = BEKGenericCell.Table<SliderCell>(viewModel: names)
+			tableView.push(cell: cell)
+		}
+	}
+	
+	override func didReceiveMemoryWarning() {
+		super.didReceiveMemoryWarning()
+		// Dispose of any resources that can be recreated.
+	}
+	
 }
 
+extension ViewController

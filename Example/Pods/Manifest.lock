@@ -1,0 +1,27 @@
+PODS:
+  - BEKListKit (0.1.0)
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - BEKListKit (from `../`)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  BEKListKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BEKListKit: 3532e41686b5b94a4b700cc81e0e36a86067153a
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 77f9de5d7704af0aaf7a91fbd06a752176f5e89b
+
+COCOAPODS: 1.9.1
