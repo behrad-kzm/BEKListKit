@@ -18,6 +18,7 @@ class ViewController: UIViewController {
 			let cell = BEKGenericCell.Table<SliderCell>(viewModel: names)
 			tableView.push(cell: cell)
 		}
+		tableView.delegate = self
 	}
 	
 	override func didReceiveMemoryWarning() {
@@ -27,4 +28,8 @@ class ViewController: UIViewController {
 	
 }
 
-extension ViewController
+extension ViewController: UITableViewDelegate {
+	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+		return 200
+	}
+}
