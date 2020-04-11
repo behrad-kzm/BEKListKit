@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BEKListKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'BEKListKit contains both generics of UITableView and UICollectionView components and help you to create complex lists in just a minute.'
 
 # This description is used to generate tags and improve search results.
