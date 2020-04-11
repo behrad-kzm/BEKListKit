@@ -52,6 +52,7 @@ and the CollectionView made in just 4 lines.
 Download the project and check the example
 
 <img src="Example/BEKListKit/ExampleImage.png" height="600">
+<img src="https://github.com/behrad-kzm/BEKMultiCellTable/blob/master/Preview.gif" height="600">
 
 ## Example
 
