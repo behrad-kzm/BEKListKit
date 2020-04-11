@@ -30,7 +30,8 @@ pod 'BEKListKit'
 
 This is a tableView contains some collectionViews as tableCell.
 The TableView made in 3 lines of code.
-and the CollectionView made in just 4
+and the CollectionView made in just 4 lines.
+
 Download the project and check the example
 
 <img src="Example/BEKListKit/ExampleImage.png" height="600">
