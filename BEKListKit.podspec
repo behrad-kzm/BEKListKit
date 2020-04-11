@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BEKListKit'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'BEKListKit contains both generics of UITableView and UICollectionView components and help you to create complex lists in just a minute.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'BEKListKit/Classes/**/*'
+  s.source_files = 'Classes/**/*'
 	s.swift_versions = '5.0'
   # s.resource_bundles = {
   #   'BEKListKit' => ['BEKListKit/Assets/*.png']
