@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'Generic components based on MVVM that allows you to add multiple cell types at runtime in a single line of code.'
+'Generic components based on MVVM that allows you to add multiple cell types at runtime in a single line of code. BEKListKit contains both generics of UITableView and UICollectionView components and help you to create complex lists in just a minute.'
                        DESC
 
   s.homepage         = 'https://github.com/behrad-kzm/BEKListKit'
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'BEKListKit/Classes/*.swift'
+  s.source_files = 'BEKListKit/Classes/**/*'
 	s.swift_versions = '5.0'
   # s.resource_bundles = {
   #   'BEKListKit' => ['BEKListKit/Assets/*.png']
