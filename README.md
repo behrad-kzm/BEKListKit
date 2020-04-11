@@ -28,7 +28,7 @@ pod 'BEKListKit'
  
 ## Demo
 
-<img src="Preview.gif" height="600">
+<img src="Example/BEKListKit/ExampleImage.png" height="600">
 
 ## Example
 
