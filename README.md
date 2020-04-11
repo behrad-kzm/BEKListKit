@@ -15,6 +15,7 @@ __-No need to deal with CollectionFlowLayout__
 
 __-Both UITableView and UICollectionView supported__
 
+__-Cand initiate with XIB or programmatically__
 
 [![CI Status](https://img.shields.io/travis/behrad-kzm/BEKListKit.svg?style=flat)](https://travis-ci.org/behrad-kzm/BEKListKit)
 [![Version](https://img.shields.io/cocoapods/v/BEKListKit.svg?style=flat)](https://cocoapods.org/pods/BEKListKit)
