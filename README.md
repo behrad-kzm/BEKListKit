@@ -5,6 +5,8 @@
  
 __-No need to Register Cell__
 
+__-No need Type check for each cell type (no more if / else)__
+
 __-No need to set reuseIdentifier (Automatically created from your class name)__
 
 __-No need to set or comfirm DataSource protocols__
