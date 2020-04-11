@@ -2,6 +2,20 @@
 
  It doesn't need to implement the UITableViewDataSource or UIColletionViewDataSource inside your view class. It also compatible with XIB contain cells or the programmatically implemented cells.
  
+ 
+__-No need to Register Cell__
+
+__-No need to set reuseIdentifier (Automatic from your class name)__
+
+__-No need to set or comfirm DataSource protocols__
+
+__-Enhanced for MVVM structures__
+
+__-No need to deal with CollectionFlowLayout__
+
+__-Both UITableView and UICollectionView supported__
+
+
 [![CI Status](https://img.shields.io/travis/behrad-kzm/BEKListKit.svg?style=flat)](https://travis-ci.org/behrad-kzm/BEKListKit)
 [![Version](https://img.shields.io/cocoapods/v/BEKListKit.svg?style=flat)](https://cocoapods.org/pods/BEKListKit)
 [![License](https://img.shields.io/cocoapods/l/BEKListKit.svg?style=flat)](https://cocoapods.org/pods/BEKListKit)
