@@ -180,7 +180,7 @@
 		120569E985260497BE5BE039F8EA6DC1 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		12A0F1835B0D5795B767741860AC2E7A /* BEKListKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEKListKit.modulemap; sourceTree = "<group>"; };
 		138ACC421B44B6D736E21E144FE1527B /* Pods-BEKListKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEKListKit_Tests.modulemap"; sourceTree = "<group>"; };
-		13F5B750243F0F62000D59B6 /* BEKDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BEKDataSource.swift; path = ../TableView/BEKDataSource.swift; sourceTree = "<group>"; };
+		13F5B750243F0F62000D59B6 /* BEKDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKDataSource.swift; sourceTree = "<group>"; };
 		13F5B752243F0F63000D59B6 /* BEKMultiCellTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKMultiCellTable.swift; sourceTree = "<group>"; };
 		13F5B753243F0F63000D59B6 /* BEKGenericCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKGenericCell.swift; sourceTree = "<group>"; };
 		13F5B759243F0FD1000D59B6 /* BEKGenericCellType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKGenericCellType.swift; sourceTree = "<group>"; };
@@ -384,39 +384,15 @@
 		13F5B744243F0B89000D59B6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				13F5B74E243F0C8E000D59B6 /* Shared */,
-				13F5B74D243F0C88000D59B6 /* TableView */,
-				13F5B74C243F0C7F000D59B6 /* CollectionView */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		13F5B74C243F0C7F000D59B6 /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				13F5B75A243F0FD1000D59B6 /* BEKCollectionLayoutComposer.swift */,
-				13F5B75E243F0FD2000D59B6 /* BEKMultiCellCollection.swift */,
-			);
-			path = CollectionView;
-			sourceTree = "<group>";
-		};
-		13F5B74D243F0C88000D59B6 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				13F5B752243F0F63000D59B6 /* BEKMultiCellTable.swift */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		13F5B74E243F0C8E000D59B6 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
 				13F5B75D243F0FD1000D59B6 /* BEKBindableCell.swift */,
 				13F5B750243F0F62000D59B6 /* BEKDataSource.swift */,
 				13F5B759243F0FD1000D59B6 /* BEKGenericCellType.swift */,
 				13F5B753243F0F63000D59B6 /* BEKGenericCell.swift */,
+				13F5B75A243F0FD1000D59B6 /* BEKCollectionLayoutComposer.swift */,
+				13F5B75E243F0FD2000D59B6 /* BEKMultiCellCollection.swift */,
+				13F5B752243F0F63000D59B6 /* BEKMultiCellTable.swift */,
 			);
-			path = Shared;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
